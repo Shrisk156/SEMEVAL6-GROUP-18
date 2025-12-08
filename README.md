@@ -24,3 +24,5 @@ It provides a standardized dataset and evaluation framework for political commun
 - Feature engineering
 - Model selection and experimentation
 - Evaluation and submission
+
+## Model Selection
