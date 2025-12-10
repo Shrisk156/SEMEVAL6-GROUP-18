@@ -8,6 +8,8 @@ This helps analyze how politicians strategically use evasive language.
 The task supports NLP research in discourse analysis, fact-checking, and dialogue systems.  
 It provides a standardized dataset and evaluation framework for political communication analysis at scale.
 
+More information can be found on the attached Research Paper.
+
 **Task Link:** [CLARITY SemEval 2026](https://konstantinosftw.github.io/CLARITY-SemEval-2026/)
 
 ## Team Members
@@ -15,12 +17,19 @@ It provides a standardized dataset and evaluation framework for political commun
 - Shrisha Shriram Kulkarni
 - Swapnil Thatte
 
-## Current Progress
-- Database exploration and understanding
-- Data cleaning and preprocessing
-- Investigation of potential techniques for the task
+## 🚀 Key Features
+* **Dataset Explosion:** A data augmentation technique that treats conflicting annotator labels as valid distinct training samples, effectively tripling the training data size to capture subjective ambiguity.
+* **Hierarchical Flat-Mapping:** A "bottom-up" inference pipeline that predicts fine-grained evasion types (Task 2) and deterministically maps them to high-level clarity labels (Task 1), ensuring logical consistency.
+* **Weighted Loss Optimization:** Implementation of `WeightedCrossEntropy` to penalize misclassification of rare evasion types like *Clarification* and *Partial Answer*.
+* **ACL-Ready Paper:** Includes the associated research paper.
 
-## Next Steps
-- Feature engineering
-- Model selection and experimentation
-- Evaluation and submission
+## 🛠️ Installation
+
+### Prerequisites
+* Python 3.8+
+* GPU recommended (Google Colab T4 or NVIDIA local GPU)
+
+### Dependencies
+Install the required libraries. **Note:** We explicitly downgrade `numpy` to `<2.0` to prevent conflicts with PyTorch.
+
+
