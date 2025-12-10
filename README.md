@@ -8,7 +8,7 @@ This helps analyze how politicians strategically use evasive language.
 The task supports NLP research in discourse analysis, fact-checking, and dialogue systems.  
 It provides a standardized dataset and evaluation framework for political communication analysis at scale.
 
-More information can be found on the attached Research Paper.
+More information can be found on the attached Research Paper - DecodingEvasion.pdf
 
 **Task Link:** [CLARITY SemEval 2026](https://konstantinosftw.github.io/CLARITY-SemEval-2026/)
 
